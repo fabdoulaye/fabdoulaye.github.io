@@ -2,7 +2,7 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Spécialiste en Cyber et Data"
+brand: "Cyber & Data Innov"
 
 # text below the brand name
 brand_sub_text: "$site_sample"
@@ -25,7 +25,7 @@ about:
 # the year during which the claimed copyright for the work was first asserted.
 copyright_start_year: "2025"
 
-# make sure creative_commons.enable is true in _data/conf/main.yml file
+# make sure creative_commons.enable is true in _da ta/conf/main.yml file
 creative_commons:
   # choose your license from https://creativecommons.org/choose/?lang=en
   # then check link address below Selected License and make sure it matches with the list below

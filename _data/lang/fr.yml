@@ -139,7 +139,7 @@ post-list:
 home:
   title: Bienvenue
   button_name: Accueil
-  new_posts_title: Nouveaux articles
+  new_posts_title: Mes certifications
   new_posts_show_more_button: Voir plus ...
 
 # for archives layout
@@ -176,7 +176,7 @@ privacy-policy:
 constants:
   greetings: Bonjour
   welcome: Bienvenue
-  sample: Goûter
+  sample: Bio
 
 # for contact form
 contact_form:
