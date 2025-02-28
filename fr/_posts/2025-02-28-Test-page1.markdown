@@ -1,14 +1,14 @@
 ---
 lng_pair: id_certification_datacamp_ml
-title: "Certification DataCamp - Machine Learning"
+title: "DataCamp - Dealing with Missing Data in Python"
 category: Certifications
 tags: [DataCamp, Machine Learning, Certification]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
-date: 2025-02-28 10:00:00 +0100
+date: 2024-03-22 10:00:00 +0100
 ---
 
-## 🎓 Certification DataCamp - Machine Learning Scientist  
+## 🎓 DataCamp - Dealing with Missing Data in Python  
 
 J'ai obtenu la certification **Dealing with Missing Data in Python** de **DataCamp**. Vous pouvez la consulter en cliquant sur le lien ci-dessous :  
 
@@ -16,6 +16,8 @@ J'ai obtenu la certification **Dealing with Missing Data in Python** de **DataCa
 
 ![Aperçu de la certification](/assets/images/datacamp-ml.png)  
 
-### Aperçu :  
-[![Voir la certification](/assets/certifications/images/Datacamp.png)](/assets/certifications/datacamp-ml.pdf)
+<iframe src="/assets/certifications/certificate_Dealing with Missing Data in Python.pdf" width="100%" height="500px">
+    Ce navigateur ne supporte pas l'affichage des PDF. 
+    <a href="/assets/certifications/certificate_Dealing with Missing Data in Python.pdf">Téléchargez le PDF ici</a>.
+</iframe>
 
