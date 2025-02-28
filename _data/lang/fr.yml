@@ -113,8 +113,32 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: Certifications
+  button_name: Certifications
+  upside_down_tabs:
+    tab:
+      all: Toute
+      categories: Catégories
+      tags: Mots clés
+      years: Années
+      clear: Retirer
+      close: Fermer
+      tooltip:
+        clear: Retirer
+        close: Fermer
+    msg:
+      property_list:
+        # keys need to match with /query/post-query.json
+        tags: Étiquette
+        category: Catégorie
+        year: Année
+      # you can use these wildcards, {property} {value} {thumb}
+      resultFoundTitleFormat: "{property} : {thumb}"
+
+# for post-list layout
+certif-list:
+  title: Certifications
+  button_name: Certifications
   upside_down_tabs:
     tab:
       all: Toute
