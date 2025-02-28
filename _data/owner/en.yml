@@ -43,7 +43,7 @@ creative_commons:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "Your meta description."
+meta_common_description: "Passionate about cybersecurity and data, I am an engineer in IT and telecommunications with 15 years of experience. Expert in forensic and cybersecurity, data scientist, and AI project manager, I transform data into innovative solutions."
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
