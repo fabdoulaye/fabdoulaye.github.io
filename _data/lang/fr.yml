@@ -166,11 +166,17 @@ home:
   new_posts_title: Mes certifications
   new_posts_show_more_button: Voir plus ...
 
-# for archives layout
+# # for archives layout
+# archives:
+#   title: Archive
+#   button_name: Archive
+#   page_header: Archive
+
+# for timeline layout
 archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+  title: Chronologie
+  button_name: Chronologie
+  page_header: Chronologie
 
 # for about layout
 about:
