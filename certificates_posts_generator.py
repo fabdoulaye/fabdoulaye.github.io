@@ -5,7 +5,7 @@ organisme = 'DataScientest' # 'DataCamp' #'DataScientest'
 certification_folder = 'dpm' # 'dataCamp/Certificate' # 'datascientist' #'DataCamp'
 diploma = 'Data Product Manager' # 'Machine Learning Engineer' #'Data Scientist'
 groupe = 'dataCamp'
-logos = 'dst-new-logo' #'Datacamp.png' # 'dst-new-logo.png' #'ds-logo.png'
+logos = 'dst-new-logo.png' #'Datacamp.png' # 'dst-new-logo.png' #'ds-logo.png'
 
 ##### Liste les noms des fichiers pour les posts de certification
 # Remplacez 'votre_repertoire' par le chemin de votre répertoire

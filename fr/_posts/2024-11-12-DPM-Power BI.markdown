@@ -3,7 +3,7 @@ lng_pair: id_certification_datacamp_ml
 title: "Power BI"
 category: Certifications
 tags: [DataScientest, Data Product Manager]
-img: "/assets/certifications/images/dst-new-logo"
+img: "/assets/certifications/images/dst-new-logo.png"
 comments_disable: true
 date: 2024-11-12 22:00:00 +0100
 ---
