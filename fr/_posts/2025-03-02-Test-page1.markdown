@@ -5,7 +5,7 @@ category: Certifications
 tags: [DataCamp, Machine Learning, Certification]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
-date: 2024-03-23 10:00:00 +0100
+date: 2025-03-02 22:00:00 +0100
 ---
 
 ## 🎓 DataCamp - Dealing with Missing Data in Python  
@@ -16,8 +16,12 @@ J'ai obtenu la certification **Dealing with Missing Data in Python** de **DataCa
 
 ![Aperçu de la certification](/assets/images/datacamp-ml.png)  
 
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" style='border:none;'></iframe>
+
 <iframe src="/assets/certifications/certificate_Dealing with Missing Data in Python.pdf" width="100%" height="500px">
     Ce navigateur ne supporte pas l'affichage des PDF. 
     <a href="/assets/certifications/datacamp/certificate_Dealing with Missing Data in Python.pdf">Téléchargez le PDF ici</a>.
 </iframe>
+
+![Mon badge TryHackMe](https://tryhackme-badges.s3.amazonaws.com/Fadimatou.png)
 
