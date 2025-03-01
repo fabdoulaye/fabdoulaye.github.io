@@ -1,6 +1,6 @@
 ---
 lng_pair: id_certification_datacamp_ml
-title: "DataCamp - Dealing with Missing Data in Python"
+title: "Dealing with Missing Data in Python"
 category: Certifications
 tags: [DataCamp, Machine Learning, Certification]
 img: "/assets/certifications/images/Datacamp.png"

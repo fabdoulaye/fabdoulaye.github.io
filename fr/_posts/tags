@@ -13,7 +13,11 @@ Seaborn,
 Statistics,
 Machine Learning, 
 Supervised, 
+Unsupervised
 scikit-learn,
 Power BI,
 Data Analysis,
-Git
+Git,
+Clustering,
+Data Engineering,
+Deep Learning
