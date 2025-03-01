@@ -3,45 +3,17 @@ lng_pair: id_certification_datacamp_ml
 title: "DataCamp - Dealing with Missing Data in Python"
 category: Certifications
 tags: [DataCamp, Machine Learning, Certification]
-img: "/assets/certifications/images/dealing-missing-data-python.jpg"
+img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2024-03-22 10:00:00 +0100
 ---
 
 ## 🎓 DataCamp - Dealing with Missing Data in Python  
 
-J'ai obtenu la certification **Dealing with Missing Data in Python** de **DataCamp**. Vous pouvez la consulter en cliquant sur le lien ci-dessous :  
-
-📜 **[Voir la certification (PDF)](/assets/certifications/datacamp/certificate_Dealing with Missing Data in Python.pdf)**  
+J'ai obtenu la certification **Dealing with Missing Data in Python** de **DataCamp**.  
 
 ![Aperçu de la certification](/assets/certifications/images/dealing-missing-data-python.jpg)  
 
+Vous pouvez la consulter en cliquant sur le lien ci-dessous :  
 
-### 📄 Aperçu du PDF  
-
-<canvas id="pdfViewer"></canvas>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var url = "/assets/certifications/datacamp/certificate_Dealing with Missing Data in Python.pdf";  // Modifier avec le bon chemin
-
-        pdfjsLib.getDocument(url).promise.then(function(pdf) {
-            pdf.getPage(1).then(function(page) {
-                var scale = 1.5;
-                var viewport = page.getViewport({ scale: scale });
-
-                var canvas = document.getElementById('pdfViewer');
-                var context = canvas.getContext('2d');
-                canvas.width = viewport.width;
-                canvas.height = viewport.height;
-
-                var renderContext = {
-                    canvasContext: context,
-                    viewport: viewport
-                };
-                page.render(renderContext);
-            });
-        });
-    });
-</script>
+📜 **[Voir la certification (PDF)](/assets/certifications/datacamp/certificate_Dealing with Missing Data in Python.pdf)** 
