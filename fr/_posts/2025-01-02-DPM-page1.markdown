@@ -5,7 +5,7 @@ category: Certifications
 tags: [DataCamp, Machine Learning, Certification]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
-date: 2025-03-02 22:00:00 +0100
+date: 2025-01-02 22:00:00 +0100
 ---
 
 ## 🎓 DataCamp - Dealing with Missing Data in Python  
