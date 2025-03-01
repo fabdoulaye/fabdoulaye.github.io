@@ -19,10 +19,10 @@ print(f"L'image a été créée avec succès : {image_path}") """
 import os
 import fitz  # PyMuPDF
 
-groupe = "mlops" #'datascientist' #'DataCamp'
+certification_folder = 'dataCamp/Certificate' # "mlops" #'datascientist' #'DataCamp'
 
 # Obtenir la liste de tous les fichiers PDF dans le répertoire spécifié
-pdf_directory = 'C:/Users/hp/Documents/GitHub/fabdoulaye.github.io/assets/certifications/'+ groupe + '/'
+pdf_directory = 'C:/Users/hp/Documents/GitHub/fabdoulaye.github.io/assets/certifications/'+ certification_folder + '/'
 pdf_files = [f for f in os.listdir(pdf_directory) if f.endswith('.pdf')]
 
 # Faire la conversion pour chaque fichier PDF

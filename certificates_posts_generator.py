@@ -1,20 +1,24 @@
 import os
 import re
 
-organisme = 'DataScientest' #'DataCamp'
-groupe = 'mlops' # 'datascientist' #'DataCamp'
+organisme = 'DataCamp' # 'DataCamp' #'DataScientest'
+certification_folder = 'dataCamp/Certificate' # 'datascientist' #'DataCamp'
 diploma = 'Machine Learning Engineer' #'Data Scientist'
+groupe = 'dataCamp'
+logos = 'Datacamp.png' # 'dst-new-logo.png' #'ds-logo.png'
 
 ##### Liste les noms des fichiers pour les posts de certification
 # Remplacez 'votre_repertoire' par le chemin de votre répertoire
-repertoire = 'C:/Users/hp/Documents/GitHub/fabdoulaye.github.io/assets/certifications/' + groupe + '/'
+repertoire = 'C:/Users/hp/Documents/GitHub/fabdoulaye.github.io/assets/certifications/' + certification_folder + '/'
 
 # crée une nouvelle liste de dates avec les dates d'obtention des certificats
-dates_mlops = ['2024-08-13', '2024-06-10', '2024-02-23', '2024-05-13', '2024-03-06', '2024-03-18', 
-         '2024-08-08', '2024-04-01', '2024-07-28']
+dates = ['2024-06-07', '2024-06-30', '2024-06-23', '2024-06-30']
+# dates_mlops = ['2024-08-13', '2024-06-10', '2024-02-23', '2024-05-13', '2024-03-06', '2024-03-18', 
+#          '2024-08-08', '2024-04-01', '2024-07-28']
 
 # Crée une nouvelle liste de filenames formatée pour les posts de certification
 post_filenames = []
+
 
 # Vérifiez si le répertoire existe
 if os.path.exists(repertoire):
@@ -23,7 +27,7 @@ if os.path.exists(repertoire):
 
     # Crée une nouvelle liste de filenames avec l'extension '2023-02' suivi de 'datascientest' et change l'extension en '.markdown'
     # post_filenames = [f"2023-03-11-datascientest-{os.path.splitext(fichier)[0]}.markdown" for fichier in filenames]
-    for date, fichier in zip(dates_mlops, filenames) : #for fichier in filenames:
+    for date, fichier in zip(dates, filenames) : #for fichier in filenames:
         base_name, _ = os.path.splitext(fichier)
         new_name = f"{date}-{base_name}.markdown"
         post_filenames.append(new_name)
@@ -77,13 +81,13 @@ content_template = """---
 lng_pair: id_certification_datacamp_ml
 title: "{title}"
 category: Certifications
-tags: [{category}]
-img: "/assets/certifications/images/dst-new-logo.png"
+tags: [{category}, {diploma}]
+img: "/assets/certifications/images/{logos}"
 comments_disable: true
 date: {date} 22:00:00 +0100
 ---
 
-## 🎓 Data Scientist - {title}
+## 🎓 {diploma} - {title}
 
 J'ai obtenu la certification **{title}** de **{category}**.
 
@@ -91,7 +95,7 @@ J'ai obtenu la certification **{title}** de **{category}**.
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 
-📜 **[Voir la certification (PDF)](/assets/certifications/datascientist/{pdf})** 
+📜 **[Voir la certification (PDF)](/assets/certifications/{certification_folder}/{pdf})** 
 """
 
 
@@ -110,9 +114,8 @@ for filename in post_filenames:
     start_index = start_index + len("MLOps-")
     titre = filename[start_index:end_index]
     
-    certifications[titre] = (organisme + " , " + diploma, f"{base_name}.jpg", f"{base_name}.pdf", filename[:10])
+    certifications[titre] = (organisme, logos, diploma, f"{base_name}.jpg", f"{base_name}.pdf", groupe, filename[:10])
 print(certifications)
-
 
 
 # Create directory if it doesn't exist
@@ -120,8 +123,8 @@ output_dir = 'fr/_posts'
 os.makedirs(output_dir, exist_ok=True)
 
 # Create files and write content
-for filename, (title, (category, image, pdf, date)) in zip(post_filenames, certifications.items()):
-    content = content_template.format(title=title, category=category, image=image, pdf=pdf, date=date)
+for filename, (title, (category, logos, diploma, image, pdf, certification_folder, date)) in zip(post_filenames, certifications.items()):
+    content = content_template.format(title=title, category=category, logos=logos, diploma=diploma, image=image, pdf=pdf, certification_folder=certification_folder , date=date)
     filepath = os.path.join(output_dir, filename)
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)

@@ -1,7 +1,7 @@
 import os
 
 
-groupe = 'mlops' # 'datascientist' #'DataCamp'
+groupe =  'dataCamp/Certificate' #'mlops' # 'datascientist'
 
 # Remplacez 'cheminVersRepertoire' par le chemin de votre répertoire
 repertoire = 'C:/Users/hp/Documents/GitHub/fabdoulaye.github.io/assets/certifications/' + groupe + '/'
@@ -18,10 +18,9 @@ else:
     print(f"Le répertoire {repertoire} n'existe pas.")
     
 # crée une nouvelle liste de dates avec les dates d'obtention des certificats
-dates_mlops = ['2024-08-13', '2024-06-10', '2024-02-23', '2024-05-13', '2024-03-06', '2024-03-18', 
-         '2024-08-08', '2024-04-01', '2024-07-28']
+dates_mlops = ['2024-06-07', '2024-06-30', '2024-06-23', '2024-06-30']
 
-
+groupe = 'dataCamp'
 # Crée une nouvelle liste de filenames avec les modifications demandées
 post_filenamess = []
 for date, fichier in zip(dates_mlops, filenames) : #for fichier in filenames:
