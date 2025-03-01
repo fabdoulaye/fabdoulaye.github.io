@@ -12,7 +12,7 @@ date: 2022-04-03 10:00:00 +0100
 
 J'ai obtenu la certification **Web Scraping in Python** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Web Scraping in Python.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Web Scraping in Python.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

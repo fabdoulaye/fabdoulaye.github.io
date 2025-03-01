@@ -12,7 +12,7 @@ date: 2022-11-27 10:00:00 +0100
 
 J'ai obtenu la certification **Understanding Data Visualization** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Understanding Data Visualization.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Understanding Data Visualization.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

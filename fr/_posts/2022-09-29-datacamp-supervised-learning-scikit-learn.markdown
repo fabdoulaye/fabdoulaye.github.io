@@ -12,7 +12,7 @@ date: 2022-09-29 10:00:00 +0100
 
 J'ai obtenu la certification **Supervised Learning with scikit-learn** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Supervised Learning with scikit-learn.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Supervised Learning with scikit-learn.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

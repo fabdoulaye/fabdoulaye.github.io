@@ -12,7 +12,7 @@ date: 2022-12-08 10:00:00 +0100
 
 J'ai obtenu la certification **Intermediate Data Visualization with Seaborn** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Intermediate Data Visualization with Seaborn.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Intermediate Data Visualization with Seaborn.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

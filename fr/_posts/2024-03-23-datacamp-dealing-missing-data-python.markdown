@@ -1,19 +1,19 @@
 ---
 lng_pair: id_certification_datacamp_ml
-title: "Data Manipulation with pandas"
+title: "DataCamp - Dealing with Missing Data in Python"
 category: Certifications
-tags: [DataCamp, Data Manipulation, Pandas, Python]
+tags: [DataCamp, Machine Learning, Certification]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
-date: 2024-03-23 10:00:00 +0100
+date: 2024-03-22 10:00:00 +0100
 ---
 
-## 🎓 DataCamp - Data Manipulation with pandas
+## 🎓 DataCamp - Dealing with Missing Data in Python  
 
-J'ai obtenu la certification **Data Manipulation with pandas** de **DataCamp**.
+J'ai obtenu la certification **Dealing with Missing Data in Python** de **DataCamp**.  
 
-![Aperçu de la certification](/assets/certifications/images/Data Manipulation with pandas.jpg)  
+![Aperçu de la certification](/assets/certifications/images/dealing-missing-data-python.jpg)  
 
-Vous pouvez la consulter en cliquant sur le lien ci-dessous :
+Vous pouvez la consulter en cliquant sur le lien ci-dessous :  
 
-📜 **[Voir la certification (PDF)](/assets/certifications/datacamp/certificate_Data Manipulation with pandas.pdf)** 
+📜 **[Voir la certification (PDF)](/assets/certifications/datacamp/certificate_Dealing with Missing Data in Python.pdf)** 

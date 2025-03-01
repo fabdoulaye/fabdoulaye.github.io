@@ -12,7 +12,7 @@ date: 2022-07-30 10:00:00 +0100
 
 J'ai obtenu la certification **Writing Functions in Python** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Writing Functions in Python.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Writing Functions in Python.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

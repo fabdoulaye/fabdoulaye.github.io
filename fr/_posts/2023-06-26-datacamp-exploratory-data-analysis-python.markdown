@@ -12,7 +12,7 @@ date: 2023-06-26 10:00:00 +0100
 
 J'ai obtenu la certification **Exploratory Data Analysis in Python** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Exploratory Data Analysis in Python.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Exploratory Data Analysis in Python.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

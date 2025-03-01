@@ -12,7 +12,7 @@ date: 2022-09-29 10:00:00 +0100
 
 J'ai obtenu la certification **Unsupervised Learning in Python** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Unsupervised Learning in Python.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Unsupervised Learning in Python.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

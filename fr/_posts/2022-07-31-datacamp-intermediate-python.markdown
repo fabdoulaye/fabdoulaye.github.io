@@ -12,7 +12,7 @@ date: 2022-07-31 10:00:00 +0100
 
 J'ai obtenu la certification **Intermediate Python** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Intermediate Python.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Intermediate Python.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

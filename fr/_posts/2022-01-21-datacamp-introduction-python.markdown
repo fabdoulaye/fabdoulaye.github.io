@@ -12,7 +12,7 @@ date: 2022-01-21 10:00:00 +0100
 
 J'ai obtenu la certification **Introduction to Python** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Introduction to Python.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Introduction to Python.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

@@ -12,7 +12,7 @@ date: 2024-03-03 10:00:00 +0100
 
 J'ai obtenu la certification **Introduction to Importing Data in Python** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Introduction to Importing Data in Python.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Introduction to Importing Data in Python.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

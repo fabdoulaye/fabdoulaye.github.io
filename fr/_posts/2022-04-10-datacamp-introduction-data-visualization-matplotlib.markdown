@@ -12,7 +12,7 @@ date: 2022-04-10 10:00:00 +0100
 
 J'ai obtenu la certification **Introduction to Data Visualization with Matplotlib** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Introduction to Data Visualization with Matplotlib.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_introduction to data visualization with Matplotlib.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

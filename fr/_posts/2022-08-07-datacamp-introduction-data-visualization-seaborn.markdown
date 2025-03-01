@@ -12,7 +12,7 @@ date: 2022-08-07 10:00:00 +0100
 
 J'ai obtenu la certification **Introduction to Data Visualization with Seaborn** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Introduction to Data Visualization with Seaborn.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate-Introduction to Data Visualization with Seaborn.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

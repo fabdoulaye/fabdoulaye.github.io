@@ -12,7 +12,7 @@ date: 2022-03-05 10:00:00 +0100
 
 J'ai obtenu la certification **Joining Data in SQL** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Joining Data in SQL.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Joining Data in SQL.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

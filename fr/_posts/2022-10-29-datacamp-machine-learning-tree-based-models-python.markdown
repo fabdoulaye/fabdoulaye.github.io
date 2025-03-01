@@ -12,7 +12,7 @@ date: 2022-10-29 10:00:00 +0100
 
 J'ai obtenu la certification **Machine Learning with Tree-Based Models in Python** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Machine Learning with Tree-Based Models in Python.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Machine Learning with Tree-Based Models in Python.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 

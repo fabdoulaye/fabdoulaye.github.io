@@ -12,7 +12,7 @@ date: 2022-04-24 10:00:00 +0100
 
 J'ai obtenu la certification **Joining Data with pandas** de **DataCamp**.
 
-![Aperçu de la certification](/assets/certifications/images/Joining Data with pandas.jpg)  
+![Aperçu de la certification](/assets/certifications/images/certificate_Joining Data with pandas.jpg)  
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 
