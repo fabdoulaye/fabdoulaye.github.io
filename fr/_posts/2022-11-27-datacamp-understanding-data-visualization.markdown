@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Understanding Data Visualization"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Data Visualization]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2022-11-27 10:00:00 +0100

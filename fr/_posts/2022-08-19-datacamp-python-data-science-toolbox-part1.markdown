@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Python Data Science Toolbox (Part 1)"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Programming, Python]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2022-08-19 10:00:00 +0100

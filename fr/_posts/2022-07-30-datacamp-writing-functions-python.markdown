@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Writing Functions in Python"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Programming, Python]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2022-07-30 10:00:00 +0100

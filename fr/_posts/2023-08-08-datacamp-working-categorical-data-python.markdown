@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Working with Categorical Data in Python"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Data Manipulation, Pandas, Python]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2023-08-08 10:00:00 +0100

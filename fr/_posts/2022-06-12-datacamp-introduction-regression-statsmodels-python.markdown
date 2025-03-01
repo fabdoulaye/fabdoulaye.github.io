@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Introduction to Regression with statsmodels in Python"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Machine Learning, Regression, statsmodels, Python]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2022-06-12 10:00:00 +0100

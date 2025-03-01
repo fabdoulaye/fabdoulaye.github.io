@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Introduction to Data Visualization with Matplotlib"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Data Visualization, Matplotlib]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2022-04-10 10:00:00 +0100

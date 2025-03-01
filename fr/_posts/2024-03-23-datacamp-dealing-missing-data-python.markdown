@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Data Manipulation with pandas"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Data Manipulation, Pandas, Python]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2024-03-23 10:00:00 +0100

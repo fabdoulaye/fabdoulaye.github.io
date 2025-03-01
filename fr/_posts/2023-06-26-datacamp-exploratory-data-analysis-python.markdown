@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Exploratory Data Analysis in Python"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Data Analysis, Python]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2023-06-26 10:00:00 +0100

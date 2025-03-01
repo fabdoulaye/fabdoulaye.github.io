@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Introduction to Python"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Programming, Python]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2022-01-21 10:00:00 +0100

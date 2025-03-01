@@ -2,7 +2,7 @@
 lng_pair: id_certification_datacamp_ml
 title: "Web Scraping in Python"
 category: Certifications
-tags: [DataCamp, Machine Learning, Certification]
+tags: [DataCamp, Scraping, Python]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
 date: 2022-04-03 10:00:00 +0100
