@@ -5,7 +5,7 @@
 page_data:
   main:
     header: "Projets"
-    info: "Description de la page de votre projet."
+    info: "EN COURS DE CONSTRUCTION." # '3'Description de la page de votre projet'
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading.jpg"

@@ -1,18 +1,19 @@
 import os
 import re
 
-organisme = 'DataCamp' # 'DataCamp' #'DataScientest'
-certification_folder = 'dataCamp/Certificate' # 'datascientist' #'DataCamp'
-diploma = 'Machine Learning Engineer' #'Data Scientist'
+organisme = 'DataScientest' # 'DataCamp' #'DataScientest'
+certification_folder = 'dpm' # 'dataCamp/Certificate' # 'datascientist' #'DataCamp'
+diploma = 'Data Product Manager' # 'Machine Learning Engineer' #'Data Scientist'
 groupe = 'dataCamp'
-logos = 'Datacamp.png' # 'dst-new-logo.png' #'ds-logo.png'
+logos = 'dst-new-logo' #'Datacamp.png' # 'dst-new-logo.png' #'ds-logo.png'
 
 ##### Liste les noms des fichiers pour les posts de certification
 # Remplacez 'votre_repertoire' par le chemin de votre répertoire
 repertoire = 'C:/Users/hp/Documents/GitHub/fabdoulaye.github.io/assets/certifications/' + certification_folder + '/'
 
 # crée une nouvelle liste de dates avec les dates d'obtention des certificats
-dates = ['2024-06-07', '2024-06-30', '2024-06-23', '2024-06-30']
+dates = ['2024-08-13', '2024-10-11', '2024-10-15', '2024-08-22', '2024-11-12', '2025-01-12']
+# dates_datacamp_mlops = ['2024-06-07', '2024-06-30', '2024-06-23', '2024-06-30']
 # dates_mlops = ['2024-08-13', '2024-06-10', '2024-02-23', '2024-05-13', '2024-03-06', '2024-03-18', 
 #          '2024-08-08', '2024-04-01', '2024-07-28']
 
@@ -106,15 +107,15 @@ for filename in post_filenames:
     # base_name = filename.replace("2023-03-11-datascientest-", "").replace(".markdown", "")  #os.path.splitext(filename)[0]
     
     end_index = filename.find(".markdown")
-    start_index = filename.find("MLOps-")
+    start_index = filename.find("DPM-")
     base_name = filename[start_index:end_index]
 
     # "2024-02-23-MLOps-Bash and Linux.markdown"
     # Extraction de la partie requise sans utiliser regex
-    start_index = start_index + len("MLOps-")
+    start_index = start_index + len("DPM-")
     titre = filename[start_index:end_index]
     
-    certifications[titre] = (organisme, logos, diploma, f"{base_name}.jpg", f"{base_name}.pdf", groupe, filename[:10])
+    certifications[titre] = (organisme, logos, diploma, f"{base_name}.jpg", f"{base_name}.pdf", certification_folder, filename[:10])
 print(certifications)
 
 

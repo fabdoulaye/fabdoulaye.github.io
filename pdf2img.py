@@ -19,7 +19,7 @@ print(f"L'image a été créée avec succès : {image_path}") """
 import os
 import fitz  # PyMuPDF
 
-certification_folder = 'dataCamp/Certificate' # "mlops" #'datascientist' #'DataCamp'
+certification_folder = 'dpm' # 'dataCamp/Certificate' # "mlops" #'datascientist' #'DataCamp'
 
 # Obtenir la liste de tous les fichiers PDF dans le répertoire spécifié
 pdf_directory = 'C:/Users/hp/Documents/GitHub/fabdoulaye.github.io/assets/certifications/'+ certification_folder + '/'
