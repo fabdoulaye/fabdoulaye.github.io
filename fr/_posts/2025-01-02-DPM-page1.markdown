@@ -14,7 +14,7 @@ J'ai obtenu la certification **Dealing with Missing Data in Python** de **DataCa
 
 📜 **[Voir la certification (PDF)](/assets/certifications/datacamp/certificate_Dealing with Missing Data in Python.pdf)**  
 
-![Aperçu de la certification](/assets/images/datacamp-ml.png)  
+<!-- ![Aperçu de la certification](/assets/images/datacamp-ml.png)   -->
 
 <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" style='border:none;'></iframe>
 
@@ -23,5 +23,5 @@ J'ai obtenu la certification **Dealing with Missing Data in Python** de **DataCa
     <a href="/assets/certifications/datacamp/certificate_Dealing with Missing Data in Python.pdf">Téléchargez le PDF ici</a>.
 </iframe> -->
 
-![Mon badge TryHackMe](https://tryhackme-badges.s3.amazonaws.com/Fadimatou.png)
+<!-- ![Mon badge TryHackMe](https://tryhackme-badges.s3.amazonaws.com/Fadimatou.png) -->
 
