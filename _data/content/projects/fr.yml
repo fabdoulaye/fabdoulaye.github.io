@@ -39,11 +39,13 @@ page_data:
         Je suis passionnée par la cybersécurité et j'utilise depuis récemment la plateforme TryHackMe pour améliorer mes compétences. TryHackMe est une plateforme d'apprentissage en ligne qui propose des laboratoires pratiques et des défis de sécurité informatique. Vous pouvez consulter mon profil et suivre mes progrès en cliquant sur le lien ci-dessous :
 
         Mon profil TryHackMe : 
-        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" border:none></iframe>
+        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" style='border:none;'></iframe>
 
         Sur mon profil, vous trouverez une liste des salles que j'ai complétées, des badges que j'ai obtenus et des compétences que j'ai développées. N'hésitez pas à me suivre pour voir mes dernières réalisations et défis relevés.
 
-        # <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" border:none width="100%" height="500px"></iframe>
+        <img src="https://tryhackme-badges.s3.amazonaws.com/kitzy.png" alt="Your Image Badge" />
+
+      
 
         
         
