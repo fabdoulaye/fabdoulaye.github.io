@@ -25,6 +25,25 @@ page_data:
       color: "#2FD0ED"
 
   list:
+
+    # my first test
+    - type: id_quote
+      project_name: "TryHackMe - Mon parcours en cybersécurité"
+      project_excerpt: "Améliorer mes compétences en cybersécurité"
+      img: ":tryhackme_thumb.jpg" # tryhackme.svg
+      img_title: "TryHackMe"
+      date: "2025-03-02"
+      post: |
+        ## 🎓 TryHackMe - Mon profil
+
+        Je suis passionné par la cybersécurité et j'ai récemment commencé à utiliser TryHackMe pour améliorer mes compétences. TryHackMe est une plateforme d'apprentissage en ligne qui propose des laboratoires pratiques et des défis de sécurité informatique. Vous pouvez consulter mon profil et suivre mes progrès en cliquant sur le lien ci-dessous :
+
+        Mon profil TryHackMe
+
+        Sur mon profil, vous trouverez une liste des salles que j'ai complétées, des badges que j'ai obtenus et des compétences que j'ai développées. N'hésitez pas à me suivre pour voir mes dernières réalisations et défis relevés.
+
+        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" style='border:none;'></iframe>
+        
     # example
     - type: id_example
       project_name: "Exemple de projet"
@@ -208,6 +227,7 @@ page_data:
         But bears it out even to the edge of doom.
         If this be error and upon me proved,
         I never writ, nor no man ever loved.
+    
     - type: id_quote
       project_name: "Exemple de projet"
       project_excerpt: "Albert Einstein"
@@ -216,6 +236,7 @@ page_data:
       date: "2021-06-08"
       post: |
         Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
+    
     - type: id_quote
       project_name: "Exemple de projet"
       project_excerpt: "Mae West"
@@ -224,6 +245,7 @@ page_data:
       date: "2021-08-20"
       post: |
         You only live once, but if you do it right, once is enough.
+    
     - type: id_quote
       project_name: "Exemple de projet"
       project_excerpt: "Mahatma Gandhi "
