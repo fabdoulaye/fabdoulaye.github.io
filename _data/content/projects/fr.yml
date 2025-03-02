@@ -27,22 +27,22 @@ page_data:
   list:
 
     # my first test
-    - type: id_quote
-      project_name: "TryHackMe - Mon parcours en cybersécurité"
+    - type: id_example
+      project_name: "TryHackMe"
       project_excerpt: "Améliorer mes compétences en cybersécurité"
-      img: ":tryhackme_thumb.jpg" # tryhackme.svg
+      img: "/assets/img/projects/tryhackme.svg" # tryhackme.svg
       img_title: "TryHackMe"
       date: "2025-03-02"
       post: |
-        ## 🎓 TryHackMe - Mon profil
+        ## 🏋️ Mon parcours en cybersécurité (mon profil)
 
-        Je suis passionné par la cybersécurité et j'ai récemment commencé à utiliser TryHackMe pour améliorer mes compétences. TryHackMe est une plateforme d'apprentissage en ligne qui propose des laboratoires pratiques et des défis de sécurité informatique. Vous pouvez consulter mon profil et suivre mes progrès en cliquant sur le lien ci-dessous :
+        Je suis passionnée par la cybersécurité et j'utilise depuis récemment la plateforme TryHackMe pour améliorer mes compétences. TryHackMe est une plateforme d'apprentissage en ligne qui propose des laboratoires pratiques et des défis de sécurité informatique. Vous pouvez consulter mon profil et suivre mes progrès en cliquant sur le lien ci-dessous :
 
         Mon profil TryHackMe
 
         Sur mon profil, vous trouverez une liste des salles que j'ai complétées, des badges que j'ai obtenus et des compétences que j'ai développées. N'hésitez pas à me suivre pour voir mes dernières réalisations et défis relevés.
 
-        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" style='border:none;'></iframe>
+        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" width="100%" height="500px style='border:none;'></iframe>
         
     # example
     - type: id_example
