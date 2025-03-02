@@ -34,7 +34,7 @@ page_data:
       img_title: "TryHackMe"
       date: "2025-03-02"
       post: |
-        ## 🏋️ Mon parcours en cybersécurité (mon profil)
+        ## 🏋️ Mon parcours d'apprentissage de la cybersécurité sur THM
 
         Je suis passionnée par la cybersécurité et j'utilise depuis récemment la plateforme TryHackMe pour améliorer mes compétences. TryHackMe est une plateforme d'apprentissage en ligne qui propose des laboratoires pratiques et des défis de sécurité informatique. Vous pouvez consulter mon profil et suivre mes progrès en cliquant sur le lien ci-dessous :
 
@@ -42,7 +42,7 @@ page_data:
 
         Sur mon profil, vous trouverez une liste des salles que j'ai complétées, des badges que j'ai obtenus et des compétences que j'ai développées. N'hésitez pas à me suivre pour voir mes dernières réalisations et défis relevés.
 
-        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" width="100%" height="500px style='border:none;'></iframe>
+        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2208662" style="border:none; width:100%; height:500px;"></iframe>
         
     # example
     - type: id_example
