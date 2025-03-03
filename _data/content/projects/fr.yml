@@ -15,6 +15,9 @@ page_data:
     - title: "Exemple"
       type: id_example
       color: "gray"
+    - title: "Cybersécurité"
+      type: id_cybersecurity
+      color: "#62b462"
     # - title: "Certifications"
     #   url: /certifications/
     - title: "Image"
@@ -27,7 +30,7 @@ page_data:
   list:
 
     # my first test
-    - type: id_example
+    - type: id_cybersecurity
       project_name: "TryHackMe"
       project_excerpt: "Améliorer mes compétences en cybersécurité"
       img: "/assets/img/projects/tryhackme.svg" # tryhackme.svg
