@@ -5,10 +5,10 @@ category: Certifications
 tags: [DataCamp, Machine Learning, Certification]
 img: "/assets/certifications/images/Datacamp.png"
 comments_disable: true
-date: 2024-03-22 10:00:00 +0100
+date: 2024-03-23 10:00:00 +0100
 ---
 
-## 🎓 DataCamp - Dealing with Missing Data in Python  
+## 🎓 Dealing with Missing Data in Python  
 
 J'ai obtenu la certification **Dealing with Missing Data in Python** de **DataCamp**.  
 
