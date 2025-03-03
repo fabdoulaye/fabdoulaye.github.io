@@ -46,7 +46,9 @@ page_data:
 
         Sur mon profil, vous trouverez une liste des salles que j'ai complétées, des badges que j'ai obtenus et des compétences que j'ai développées. N'hésitez pas à me suivre pour voir mes dernières réalisations et défis relevés.
 
-        <img src="https://tryhackme-badges.s3.amazonaws.com/kitzy.png" alt="Your Image Badge" />
+        
+
+        # <img src="https://tryhackme-badges.s3.amazonaws.com/kitzy.png" alt="Your Image Badge" />
 
       
 
