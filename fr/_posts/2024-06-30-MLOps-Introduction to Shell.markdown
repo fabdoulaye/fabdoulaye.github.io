@@ -16,4 +16,4 @@ J'ai obtenu la certification **Introduction to Shell** de **DataCamp**.
 
 Vous pouvez la consulter en cliquant sur le lien ci-dessous :
 
-📜 **[Voir la certification (PDF)](/assets/certifications/dataCamp/MLOps-Introduction to Shell.pdf)** 
+📜 **[Voir la certification (PDF)](/assets/certifications/datacamp/MLOps-Introduction to Shell.pdf)** 
