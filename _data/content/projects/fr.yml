@@ -12,14 +12,14 @@ page_data:
     back_color: "lightblue"
 
   category:
+    - title: "Cybersécurité"
+      type: id_cybersecurity
+      color: "darkblue"
+    # - title: "Certifications"
+    #   url: /certifications/
     - title: "Exemple"
       type: id_example
       color: "gray"
-    - title: "Cybersécurité"
-      type: id_cybersecurity
-      color: "#62b462"
-    # - title: "Certifications"
-    #   url: /certifications/
     - title: "Image"
       type: id_picture
       color: "#62b462"
