@@ -4,27 +4,62 @@ title: À propos de moi
 img: /assets/images/profile.jpg
 ---
 
-## Bienvenue sur mon site !
+# À propos de moi
 
-Je m'appelle Fabdoulaye et je suis un développeur web passionné par les nouvelles technologies et l'innovation. Mon parcours professionnel et académique m'a permis d'acquérir une solide expérience dans le développement de solutions web performantes et adaptées aux besoins des utilisateurs.
+Je suis **Fadimatou ABDOULAYE**, ingénieure en systèmes d’information et télécommunications, spécialisée en **cybersécurité**, **data science** et **gestion de projets**.  
+Mon parcours s’articule autour de trois expertises complémentaires : la **sécurité des systèmes d’information**, l’**analyse et l’exploitation des données**, et le **pilotage de projets IT**.
 
-### Mon parcours
+## 🚀 Parcours professionnel
 
-- **Formation** : Diplômé en informatique de l'Université XYZ, j'ai approfondi mes connaissances en développement web et en gestion de projets technologiques.
-- **Expérience professionnelle** : J'ai travaillé chez ABC Company en tant que développeur web, où j'ai participé à la création de plusieurs applications web innovantes. Depuis 2019, je suis freelance et j'ai collaboré avec divers clients sur des projets variés, allant de la conception de sites web personnels à des plateformes d'entreprise complexes.
+- **Audit Sécurité des Tiers** – Covéa (depuis 2024)  
+  Pilotage des contrôles de sécurité des partenaires critiques et gestion des plans de remédiation.  
 
-### Compétences
+- **Stagiaire Cybersécurité** – Haute Autorité de Santé (2024)  
+  Mise en œuvre de stratégies de sécurisation applicative via le déploiement d’un SIEM.  
 
-- **Langages de programmation** : JavaScript, Python, Ruby.
-- **Frameworks** : React, Angular, Django, Ruby on Rails.
-- **Outils** : Git, Docker, Jenkins.
-- **Autres compétences** : Gestion de projets, UX/UI design, optimisation des performances web.
+- **Coordinatrice de projet informatique** – Covéa (2021-2023)  
+  Sécurisation des livraisons applicatives (Selenium/Jenkins) et mise en œuvre de tests de sécurité web (OWASP ZAP).  
 
-### Projets notables
+- **Pilote de l’activité Outillage de tests** – Covéa (2018-2023)  
+  Administration et évolution d’outils de validation (Squash TM, JIRA), migration de référentiels de tests, support fonctionnel.  
 
-- **Projet 1** : Développement d'une application de gestion de tâches pour une startup, intégrant des fonctionnalités de collaboration en temps réel.
-- **Projet 2** : Création d'un site e-commerce pour une petite entreprise, avec une interface utilisateur intuitive et un système de paiement sécurisé.
-- **Projet 3** : Mise en place d'une plateforme de blog pour un client, avec des fonctionnalités de personnalisation avancées et une optimisation SEO.
+- **Analyste logiciels** – GMF Assurances (2016-2017)  
+  Automatisation de tests, pilotage d’homologations, méthodologie de tests et administration d’outils (ALM, UFT).  
+
+- **Consultante Qualification** – NormaSys & Qestit (2006-2016)  
+  Conception et automatisation de tests, assistance à la maîtrise d’ouvrage, formation et support utilisateurs.  
+
+## 🎓 Engagements & Transmissions
+
+Depuis **2021**, je fais partie de l’**équipe encadrante du MOOC Gestion de Projet**.  
+J’y contribue à la **rédaction de l’étude de cas** du parcours avancé (sessions #18 à #24), en mode agile, et j’assure également l’**animation des forums** pour accompagner les apprenants.  
+Cet engagement me permet de transmettre mes compétences en **pilotage de projet** et de favoriser la collaboration et l’apprentissage collectif.
+
+## 🎓 Formations clés
+
+- **Mastère Spécialisé Expert en Cybersécurité** – UTT (2023-2024)  
+- **Data Scientist & MLOps** – DataScientest / Mines ParisTech (2023-2024)  
+- **Diplôme Universitaire Data Analyst** – CY Cergy Paris Université (2022-2023)  
+- **Ingénieur en SI & Télécoms** – UTT (2003-2006, semestre à KAIST – Corée du Sud)  
+
+## 🌍 Compétences & Ouverture
+
+- **Cybersécurité** : audit, forensique, SIEM, sécurité applicative, plans d’assurance sécurité.  
+- **Data & IA** : analyse exploratoire, modélisation prédictive, MLOps (déploiement et monitoring de modèles).  
+- **Gestion de projets** : coordination, suivi, amélioration continue, encadrement d’équipes.  
+- **Langues** : anglais (B2), allemand (débutant), coréen (débutant).  
+
+## 🔗 Liens
+
+- [GitHub](https://github.com/fabdoulaye)  
+- [LinkedIn](https://www.linkedin.com/in/fadimatou-abdoulaye-%F0%9F%8E%AF-755961a)  
+- [TryHackMe](https://tryhackme.com/p/kitzy)  
+- [Portfolio](https://fabdoulaye.github.io/fr/)  
+
+---
+
+💡 Ma mission : renforcer la **sécurité des systèmes d’information**, exploiter la **valeur des données** et transmettre mes savoirs à travers l’**enseignement et la collaboration**.
+
 
 ### Contact
 
