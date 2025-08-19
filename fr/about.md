@@ -61,8 +61,8 @@ Cet engagement me permet de transmettre mes compétences en **pilotage de projet
 💡 Ma mission : renforcer la **sécurité des systèmes d’information**, exploiter la **valeur des données** et transmettre mes savoirs à travers l’**enseignement et la collaboration**.
 
 
-### Contact
+<!-- ### Contact
 
 Je suis toujours ouvert à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter pour discuter de vos projets ou pour toute autre question. Vous pouvez me joindre par [email](mailto:fabdoulaye@example.com) ou via les réseaux sociaux.
 
-Merci de votre visite et à bientôt !
+Merci de votre visite et à bientôt ! -->

@@ -37,9 +37,23 @@ img: ":home-heading.jpg"
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+# Bienvenue !
+
+Je suis **Fadimatou ABDOULAYE**, ingénieure en systèmes d’information et télécommunications, spécialisée en **cybersécurité**, **data science** et **intelligence artificielle**.  
+Titulaire du titre **RNCP36129 – Chef de projet en Intelligence Artificielle (Niveau 7)**, je souhaite accompagner les organisations dans la **conception, le déploiement et la sécurisation de solutions IA** au service de leur transformation numérique.  
+
+Avec plus de 15 ans d’expérience dans les systèmes d’information, j’interviens sur l’**audit de sécurité**, l’**exploitation des données**, et le **pilotage de projets IT**.  
+
+En parallèle, je suis **membre de l’équipe encadrante du MOOC Gestion de Projet** depuis 2021, où je contribue à la **rédaction de l’étude de cas du parcours avancé** et à l’**animation des forums** pour accompagner des milliers d’apprenants.  
+Je suis également **membre du CEFCYS – Cercle des Femmes de la Cybersécurité**, une association qui promeut la place des femmes dans ce domaine stratégique.  
+
+💡 Ma mission : renforcer la **sécurité numérique**, valoriser les **données** et piloter des **projets IA** à fort impact.  
+ 
+
+
+<!-- {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 {%- include util/auto-content-generator.liquid -%}
 {{ website_info_text_first }}
 
-{{ website_info_text_second }}
+{{ website_info_text_second }} -->
