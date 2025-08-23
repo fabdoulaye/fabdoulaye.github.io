@@ -46,6 +46,48 @@ page_data:
 
         Sur mon profil, vous trouverez une liste des salles que j'ai complétées, des badges que j'ai obtenus et des compétences que j'ai développées. N'hésitez pas à me suivre pour voir mes dernières réalisations et défis relevés.
 
+    # projet thèse professionnelle
+    - type: id_cybersecurity
+      project_name: "Mise en place d’un SIEM applicatif à la HAS"
+      project_excerpt: "Étude et déploiement d’une solution SIEM et de supervision applicative"
+      img: "/assets/img/projects/utt-member-of-eut_alt.png" 
+      img_title: "UTT membre de l'EUT"
+      date: "2024-09-05"
+      post: |
+        # Mise en place d’un SIEM applicatif à la Haute Autorité de Santé : retour d’expérience  
+
+        La cybersécurité occupe une place de plus en plus centrale dans les organisations publiques et privées. 
+        Dans le cadre de ma thèse professionnelle du Mastère Spécialisé *Expert Forensique et Cybersécurité*, 
+        j’ai conduit une étude sur la **mise en place d’un SIEM (Security Information and Event Management)** 
+        dédié à l’infrastructure applicative de la **Haute Autorité de Santé (HAS)**.  
+
+        ## 🎯 Pourquoi un SIEM applicatif ?  
+        À la HAS, un SIEM existait déjà pour l’infrastructure réseau et les postes de travail.  
+        Mais il manquait une visibilité sur les **applications critiques**, essentielles pour la sécurité.  
+        L’objectif était d’améliorer la détection des menaces et la réactivité face aux incidents.  
+
+        ## 🛠️ La solution mise en œuvre  
+        - Installation et configuration de **Wazuh** et de ses agents sur SIAM et Pacte  
+        - Collecte et centralisation des logs (systèmes, bases de données, applications)  
+        - Mise en place de la détection de vulnérabilités, du contrôle d’intégrité, et intégration avec **Jira**  
+        - Déploiement d’une supervision complémentaire avec **Prometheus et Grafana**  
+
+        ## ✅ Résultats et enseignements  
+        - Visibilité accrue sur les applications critiques  
+        - Réactivité renforcée face aux incidents  
+        - Anticipation des vulnérabilités  
+        - Tableaux de bord clairs et personnalisés  
+
+        ## 🔮 Perspectives  
+        - Automatisation de la réponse aux incidents (**Active Response**)  
+        - Intégration avec d’autres outils comme **Snort IDS**  
+        - Développement de la conformité réglementaire (RGPD, NIS2)  
+        - Extension vers les environnements cloud et Kubernetes  
+
+        ## 🏁 Conclusion  
+        Ce projet démontre qu’une solution open source comme **Wazuh**, associée à **Grafana** et **Prometheus**, 
+        peut répondre efficacement aux enjeux de sécurité et de performance des applications critiques.  
+        Il constitue un réel tremplin pour renforcer la cybersécurité des organisations.  
         
 
         
