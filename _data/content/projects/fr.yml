@@ -50,7 +50,7 @@ page_data:
     - type: id_cybersecurity
       project_name: "Mise en place d’un SIEM applicatif à la HAS"
       project_excerpt: "Étude et déploiement d’une solution SIEM et de supervision applicative"
-      img: "<img src='/assets/img/projects/utt-member-of-eut_alt.png  style='width:60%; max-width:400px;'>" 
+      img: "<img src='/assets/img/projects/utt-member-of-eut_alt.png  style=width:60%; max-width:400px;'>" 
       img_title: "UTT membre de l'EUT"
       date: "2024-09-05"
       post: |
