@@ -52,8 +52,9 @@ Je suis également **membre du CEFCYS – Cercle des Femmes de la Cybersécurit�
 
 # Bienvenue !
 
-Je suis **Fadimatou ABDOULAYE**, ingénieure en systèmes d’information et télécommunications, spécialisée en **cybersécurité**, **data science** et **intelligence artificielle**.  
-Titulaire du titre **RNCP40640 – Expert en cybersécurité (Niveau 7)** obtenu en 2024 via le mastère spécialisé de l’**Université de Technologie de Troyes (UTT)**, et du titre **RNCP36129 – Chef de projet en Intelligence Artificielle (Niveau 7)** délivré en mars 2025 par **ASCENCIA Business School** et le **Collège de Paris**, j’accompagne les organisations dans la **conception, le déploiement et la sécurisation de solutions IA** au service de leur transformation numérique.
+Je suis **Fadimatou ABDOULAYE**, ingénieure en systèmes d’information et télécommunications, spécialisée en **cybersécurité**, **data science** et **intelligence artificielle**.
+
+Titulaire du titre **[RNCP40640 – Expert en cybersécurité (Niveau 7)](https://www.francecompetences.fr/recherche/rncp/40640/)**, obtenu en 2024 via le mastère spécialisé de l’**Université de Technologie de Troyes (UTT)**, et du titre **[RNCP36129 – Chef de projet en Intelligence Artificielle (Niveau 7)](https://www.francecompetences.fr/recherche/rncp/36129/)**, délivré en mars 2025 par **ASCENCIA Business School** et le **Collège de Paris**, j’accompagne les organisations dans la **conception, le déploiement et la sécurisation de solutions IA** au service de leur transformation numérique.
 
 Avec plus de **10 ans d’expérience** dans les systèmes d’information, j’interviens sur des missions d’**audit de sécurité**, d’**exploitation des données**, et de **pilotage de projets IT**, en combinant rigueur technique et vision stratégique.
 
