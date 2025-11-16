@@ -50,7 +50,7 @@ Je suis également **membre du CEFCYS – Cercle des Femmes de la Cybersécurit�
 💡 Ma mission : renforcer la **sécurité numérique**, valoriser les **données** et piloter des **projets IA** à fort impact.   -->
 
 
-# Bienvenue !
+<!--# Bienvenue !
 
 Je suis **Fadimatou ABDOULAYE**, ingénieure en systèmes d’information et télécommunications, spécialisée en **cybersécurité**, **data science** et **intelligence artificielle**.
 
@@ -62,8 +62,23 @@ En parallèle, je suis **membre de l’équipe encadrante du MOOC Gestion de Pro
 
 Je suis également **membre du CEFCYS – Cercle des Femmes de la Cybersécurité**, une association engagée pour promouvoir la place des femmes dans ce domaine stratégique et en constante évolution.
 
-💡 **Ma mission** : renforcer la **sécurité numérique**, valoriser les **données** et piloter des **projets IA** à fort impact.
+💡 **Ma mission** : renforcer la **sécurité numérique**, valoriser les **données** et piloter des **projets IA** à fort impact. -->
 
+# Bienvenue !
+
+**Transformer les défis numériques en opportunités stratégiques**  
+
+Je suis **Fadimatou ABDOULAYE**, ingénieure en systèmes d’information et télécommunications, spécialisée en **cybersécurité**, **data science** et **intelligence artificielle**.
+
+Titulaire du titre **[RNCP40640 – Expert en cybersécurité (Niveau 7)](https://www.francecompetences.fr/recherche/rncp/40640/)**, obtenu en 2024 via le mastère spécialisé de l’**Université de Technologie de Troyes (UTT)**, et du titre **[RNCP36129 – Chef de projet en Intelligence Artificielle (Niveau 7)](https://www.francecompetences.fr/recherche/rncp/36129/)**, délivré en mars 2025 par **ASCENCIA Business School** et le **Collège de Paris**, j’accompagne les organisations dans la **conception, le déploiement et la sécurisation de solutions logicielles** au service de leur transformation numérique.
+
+Avec plus de **10 ans d’expérience** dans les systèmes d’information, j’interviens sur des missions d’**audit de sécurité**, d’**analyse et valorisation des données**, et de **pilotage de projets IT**, en combinant **rigueur technique**, **vision stratégique** et **innovation**.
+
+En parallèle, je suis **membre de l’équipe encadrante du MOOC Gestion de Projet** depuis 2021, où je contribue à la **rédaction de l’étude de cas du parcours avancé** et à l’**animation des forums**, accompagnant ainsi des milliers d’apprenants dans leur montée en compétences.
+
+Je suis également **membre du CEFCYS – Cercle des Femmes de la Cybersécurité**, une association engagée pour promouvoir la place des femmes dans ce domaine stratégique et en constante évolution.
+
+💡 **Ma mission** : renforcer la **sécurité numérique**, valoriser les **données** et piloter des **projets IA** à fort impact, tout en contribuant à la **formation et la sensibilisation** autour des enjeux du digital.
 ``
 
 
