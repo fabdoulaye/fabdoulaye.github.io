@@ -90,7 +90,7 @@ page_data:
         Il constitue un réel tremplin pour renforcer la cybersécurité des organisations.  
         
            
-    - type: id_cybersecurity,id_web
+    - type: id_cybersecurity
       project_name: "Phishing & Social Engineering - Analyse et simulation"
       project_excerpt: "Étude des techniques de phishing, manipulation des utilisateurs et simulation en pentest"
       img: "/assets/img/projects/phishing.jpg"
