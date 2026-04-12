@@ -183,7 +183,7 @@ page_data:
 
         ---
 
-        ## 🧪 Le phishing en pentest
+        ## 🧪 Le phishing en test d'intrusion
 
         Le phishing est un levier essentiel pour évaluer la maturité sécurité d’une organisation.
 
@@ -244,7 +244,104 @@ page_data:
         Une compétence essentielle dans toute démarche de pentest moderne.
         
 
-      
+    - type: id_cybersecurity
+      project_name: "Phishing & Social Engineering - Analyse et simulation"
+      project_excerpt: "Étude des techniques de phishing et évaluation du facteur humain en cybersécurité"
+      img: "/assets/img/projects/phishing.jpg"
+      img_title: "Phishing"
+      date: "2026-04-12"
+      post: |
+        # Phishing & Social Engineering : un enjeu humain avant tout
+
+        Dans le cadre de ma montée en compétences en cybersécurité, j’ai étudié les mécanismes du **phishing** en adoptant une approche orientée **pentest**.
+
+        👉 Objectif : comprendre comment les attaquants exploitent le facteur humain pour contourner les dispositifs techniques.
+
+        ---
+
+        ## 🎯 Enjeux
+
+        Le phishing est aujourd’hui l’un des vecteurs d’attaque les plus efficaces.  
+        Il repose sur l’usurpation d’identité (email, site web, SMS) pour :
+
+        - Obtenir des identifiants  
+        - Accéder à des systèmes sensibles  
+        - Déployer des malwares  
+        - Réaliser des fraudes  
+
+        ---
+
+        ## 🔍 Ce que j’ai analysé
+
+        ### Typologies d’attaques
+        - Phishing de masse (large diffusion)  
+        - Spear phishing (attaques ciblées)  
+        - Whaling (ciblage des décideurs)  
+
+        ### Techniques utilisées
+        - Email spoofing (usurpation d’identité)  
+        - Faux sites de connexion (credential harvesting)  
+        - Manipulation d’URL (homographes, typosquatting)  
+
+        👉 Certaines attaques sont aujourd’hui **quasi indétectables à l’œil humain**.
+
+        ---
+
+        ## 🧠 Dimension humaine
+
+        Les attaques reposent principalement sur des leviers psychologiques :
+
+        - Urgence  
+        - Autorité  
+        - Peur  
+        - Confiance  
+
+        Ces techniques exploitent des biais cognitifs (surconfiance, biais d’autorité), réduisant la vigilance des utilisateurs.
+
+        ---
+        ## 🔄 Cycle d’une campagne de phishing
+
+        ![Cycle du phishing](/assets/img/projects/phishing-cycle.png)
+
+        1. **Planification** : définition des objectifs et des cibles  
+        2. **Reconnaissance (OSINT)** : collecte d’informations publiques  
+        3. **Conception** : création de scénarios crédibles  
+        4. **Exécution** : envoi des campagnes et suivi  
+        5. **Analyse** : mesure des résultats et recommandations  
+
+        Ce cycle permet d’évaluer concrètement la maturité sécurité d’une organisation et d’identifier des axes d’amélioration.
+
+        > 💡 Ce type de démarche est directement inspiré des méthodologies de pentest et permet de transformer une simulation en recommandations actionnables.
+
+        ## 🧪 Approche en pentest
+
+        Le phishing est utilisé pour évaluer la maturité sécurité d’une organisation via :
+
+        - Des campagnes simulées et encadrées  
+        - L’analyse des comportements utilisateurs  
+        - Des indicateurs clés (taux de clic, saisie, signalement)  
+
+        🎯 Objectif : identifier les faiblesses et proposer des actions concrètes.
+
+        ---
+
+        ## 🏁 Résultats & apprentissages
+
+        - Compréhension approfondie des mécanismes de social engineering  
+        - Capacité à concevoir des scénarios de phishing réalistes  
+        - Vision claire du rôle du facteur humain en cybersécurité  
+
+        ---
+
+        ## 💡 Conclusion
+
+        > La cybersécurité ne dépend pas uniquement des outils, mais aussi des comportements.
+
+        Le phishing est un excellent levier pour :
+        - sensibiliser efficacement  
+        - tester les organisations  
+        - améliorer durablement la posture de sécurité   
+           
 
         
         
