@@ -123,9 +123,9 @@ page_data:
         - Vol d’identifiants  
         - Accès non autorisé à un système  
         - Installation de malware  
-        - Fraude financière  
+        - Fraude  
 
-        Les vecteurs d’attaque incluent les emails, SMS, appels téléphoniques et sites web frauduleux.
+        Les vecteurs d’attaque incluent les emails, SMS (smishing), appels téléphoniques (vishing) et sites web frauduleux.
 
         ---
 
@@ -152,9 +152,10 @@ page_data:
         👉 Cette technique est facilitée par les limites du protocole SMTP.
 
         **Contre-mesures :**
-        - SPF  
-        - DKIM  
-        - DMARC  
+        
+        - **SPF (Sender Policy Framework)** : permet de vérifier que le serveur expéditeur est autorisé à envoyer des emails pour un domaine donné.  
+        - **DKIM (DomainKeys Identified Mail)** : ajoute une signature cryptographique aux emails pour garantir leur intégrité et leur authenticité.  
+        - **DMARC (Domain-based Message Authentication, Reporting & Conformance)** : s’appuie sur SPF et DKIM pour définir une პოლიტique de traitement des emails frauduleux (rejet, quarantaine, monitoring).  
 
         ---
 
@@ -169,12 +170,19 @@ page_data:
         - **Typosquatting** : exploitation des fautes de frappe  
 
         👉 Les attaques par homographes sont particulièrement dangereuses car elles ne nécessitent **aucune erreur utilisateur**.
+        
+         #### 🛡️ Contre-mesures
+
+        - Activation de la détection des domaines IDN dans les navigateurs  
+        - Utilisation de gestionnaires de mots de passe (validation automatique des domaines)  
+        - Surveillance et protection des noms de domaine (variantes, TLD)  
+        - Sensibilisation des utilisateurs
 
         ---
 
         ### 🔐 Credential Harvesting
 
-        Le credential harvesting est une technique clé du phishing.
+        Technique consistant à cloner une page de connexion pour voler des identifiants.
 
         **Principe :**
         - Création d’une copie fidèle d’un site légitime (login, portail, etc.)  
@@ -189,6 +197,13 @@ page_data:
         5. Redirection vers le site légitime  
 
         👉 Résultat : l’utilisateur pense à une erreur de connexion, tandis que l’attaquant récupère les accès.
+        
+        #### 🛡️ Contre-mesures
+
+        - Authentification multifacteur (MFA)  
+        - Sensibilisation à la vérification des URL  
+        - Solutions de détection de phishing (EDR, proxy, filtrage DNS) 
+
 
         ---
 
@@ -199,6 +214,13 @@ page_data:
         - Fichiers Word avec macros (.docm)  
         - Incitation à “Activer le contenu”  
         - Exécution de code en arrière-plan  
+
+        #### 🛡️ Contre-mesures
+
+        - Désactivation des macros par défaut  
+        - Sandbox des pièces jointes  
+        - Sensibilisation aux pièces jointes suspectes  
+        - Solutions EDR / antivirus  
 
         En contexte de pentest, ces actions sont simulées avec des charges inoffensives.
 
@@ -223,7 +245,7 @@ page_data:
 
         ## 🧪 Le phishing en pentest
 
-        Le phishing est un outil essentiel pour évaluer la sécurité d’une organisation.
+        Le phishing est un outil essentiel pour évaluer la sécurité d’une organisation via des simulations contrôlées.
 
         ### Approche
 
