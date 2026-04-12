@@ -17,8 +17,8 @@ page_data:
       color: "darkblue"
     # - title: "Certifications"
     #   url: /certifications/
-    - title: "Exemple"
-      type: id_example
+    - title: "Web"
+      type: id_web
       color: "gray"
     - title: "Image"
       type: id_picture
@@ -50,8 +50,8 @@ page_data:
     - type: id_cybersecurity
       project_name: "Mise en place d’un SIEM applicatif à la HAS"
       project_excerpt: "Étude et déploiement d’une solution SIEM et de supervision applicative"
-      img: "<img src='/assets/img/projects/utt-member-of-eut_alt.png  style=width:60%; max-width:400px;'>" 
-      img_title: "UTT membre de l'EUT"
+      img: "<img src='/assets/img/projects/has.jpg  style=width:60%; max-width:400px;'>" 
+      img_title: "Logo Haute Autorité de Santé"
       date: "2024-09-05"
       post: |
         # Mise en place d’un SIEM applicatif à la Haute Autorité de Santé : retour d’expérience  
@@ -89,19 +89,20 @@ page_data:
         peut répondre efficacement aux enjeux de sécurité et de performance des applications critiques.  
         Il constitue un réel tremplin pour renforcer la cybersécurité des organisations.  
         
-    - type: id_cybersecurity
-      project_name: "Phishing & Social Engineering - Étude et mise en pratique"
-      project_excerpt: "Analyse des techniques de phishing et simulation en contexte de pentest"
+           
+    - type: id_cybersecurity,id_web
+      project_name: "Phishing & Social Engineering - Analyse et simulation"
+      project_excerpt: "Étude des techniques de phishing, manipulation des utilisateurs et simulation en pentest"
       img: "/assets/img/projects/phishing.jpg"
       img_title: "Phishing"
       date: "2026-04-12"
       post: |
         # Phishing & Social Engineering : comprendre et exploiter le facteur humain
 
-        Dans le cadre de ma montée en compétences en cybersécurité, j’ai travaillé sur les fondamentaux du **phishing**, en l’abordant sous l’angle du **test d’intrusion**.
+        Dans le cadre de ma montée en compétences en cybersécurité, j’ai étudié les mécanismes du **phishing** en adoptant une approche orientée **test d’intrusion**.
 
-        Ce travail m’a permis de mieux comprendre une réalité essentielle :  
-        > la majorité des attaques réussies exploitent des **failles humaines**, et non techniques.
+        Ce travail met en évidence une réalité clé :  
+        > la majorité des attaques ne ciblent pas les systèmes, mais les **utilisateurs**.
 
         ---
 
@@ -110,20 +111,21 @@ page_data:
         - Comprendre les mécanismes du phishing  
         - Identifier les techniques utilisées par les attaquants  
         - Analyser les leviers psychologiques exploités  
-        - Étudier l’intégration du phishing dans une démarche de pentest  
+        - Étudier son utilisation dans une démarche de pentest  
 
         ---
 
         ## 🧠 Le phishing : une attaque centrée sur l’humain
 
-        Le phishing est une technique de **social engineering** qui consiste à usurper une identité de confiance (entreprise, collègue, service IT) afin de :
+        Le phishing est une technique de **social engineering** visant à tromper une victime en usurpant une identité légitime (entreprise, service IT, collègue).
 
-        - Voler des identifiants  
-        - Obtenir un accès non autorisé  
-        - Déployer du malware  
-        - Réaliser des fraudes  
+        Les principaux objectifs sont :
+        - Vol d’identifiants  
+        - Accès non autorisé à un système  
+        - Installation de malware  
+        - Fraude financière  
 
-        Les principaux vecteurs incluent les emails, SMS, appels téléphoniques ou encore des sites web frauduleux.
+        Les vecteurs d’attaque incluent les emails, SMS, appels téléphoniques et sites web frauduleux.
 
         ---
 
@@ -133,64 +135,100 @@ page_data:
         - **Spear phishing** : attaques ciblées et personnalisées  
         - **Whaling** : ciblage des profils à forte responsabilité (direction, finance)  
 
-        Ces approches diffèrent principalement par leur niveau de personnalisation et leur objectif.
-
         ---
 
         ## 🧩 Techniques utilisées
 
-        ### Manipulation des liens et domaines
+        Les attaquants disposent de nombreuses techniques pour tromper leurs cibles.
 
-        - Masquage d’URL derrière un lien légitime  
-        - Utilisation de raccourcisseurs d’URL  
-        - Domaines similaires pour tromper l’utilisateur  
+        ### 📧 Email spoofing
 
-        ### Homographes vs Typosquatting
-
-        Deux techniques souvent confondues :
-
-        - **Homographes** : substitution de caractères visuellement identiques (ex : alphabets cyrilliques)  
-        - **Typosquatting** : exploitation des fautes de frappe utilisateur  
-
-        👉 Les homographes sont particulièrement dangereux car **aucune erreur n’est nécessaire**.
-
-        ---
-
-        ## 📧 Email spoofing
-
-        Le spoofing consiste à falsifier l’identité de l’expéditeur :
+        L’email spoofing consiste à usurper l’identité de l’expéditeur :
 
         - Modification du champ "From"  
         - Display name trompeur  
-        - Utilisation de domaines proches  
+        - Utilisation de domaines similaires  
 
-        Cela est rendu possible par les limites du protocole SMTP.
+        👉 Cette technique est facilitée par les limites du protocole SMTP.
 
-        Des mécanismes comme **SPF, DKIM et DMARC** permettent de limiter ces attaques.
+        **Contre-mesures :**
+        - SPF  
+        - DKIM  
+        - DMARC  
 
         ---
 
-        ## 🔐 Credential harvesting
+        ### 🔗 Manipulation des URL et domaines
 
-        Une technique fréquente consiste à cloner une page de connexion :
+        - **Masquage d’URL** : lien affiché différent de la destination réelle  
+        - **Raccourcisseurs d’URL** : dissimulation de la cible finale  
 
-        1. L’utilisateur clique sur un lien frauduleux  
-        2. Il accède à une copie du site légitime  
+        #### Homographes vs Typosquatting
+
+        - **Homographes** : utilisation de caractères visuellement identiques  
+        - **Typosquatting** : exploitation des fautes de frappe  
+
+        👉 Les attaques par homographes sont particulièrement dangereuses car elles ne nécessitent **aucune erreur utilisateur**.
+
+        ---
+
+        ### 🔐 Credential Harvesting
+
+        Le credential harvesting est une technique clé du phishing.
+
+        **Principe :**
+        - Création d’une copie fidèle d’un site légitime (login, portail, etc.)  
+        - Hébergement sur un domaine frauduleux  
+        - Collecte des identifiants saisis par la victime  
+
+        **Déroulement typique :**
+        1. L’utilisateur clique sur un lien malveillant  
+        2. Il accède à une page clonée  
         3. Il saisit ses identifiants  
-        4. Les données sont récupérées par l’attaquant  
+        4. Les données sont envoyées à l’attaquant  
+        5. Redirection vers le site légitime  
 
-        L’utilisateur est ensuite redirigé vers le vrai site pour éviter les soupçons.
+        👉 Résultat : l’utilisateur pense à une erreur de connexion, tandis que l’attaquant récupère les accès.
 
         ---
 
-        ## 🧪 Le phishing en test d'intrusion
+        ### 📎 Delivery de payload
 
-        Le phishing est un levier essentiel pour évaluer la maturité sécurité d’une organisation.
+        Une autre approche consiste à inciter la victime à exécuter un fichier :
+
+        - Fichiers Word avec macros (.docm)  
+        - Incitation à “Activer le contenu”  
+        - Exécution de code en arrière-plan  
+
+        En contexte de pentest, ces actions sont simulées avec des charges inoffensives.
+
+        ---
+
+        ## 🧠 La psychologie au cœur des attaques
+
+        Le phishing exploite des mécanismes psychologiques puissants :
+
+        - **Urgence** : pousser à agir rapidement  
+        - **Autorité** : se faire passer pour une source légitime  
+        - **Peur** : déclencher une réaction immédiate  
+        - **Curiosité** : susciter l’intérêt  
+        - **Confiance** : reproduire des éléments familiers  
+
+        Ces techniques s’appuient sur des biais cognitifs comme :
+        - Surconfiance  
+        - Biais d’autorité  
+        - Biais de confirmation  
+
+        ---
+
+        ## 🧪 Le phishing en pentest
+
+        Le phishing est un outil essentiel pour évaluer la sécurité d’une organisation.
 
         ### Approche
 
-        - Simulation de campagnes réalistes mais sans danger  
-        - Utilisation d’outils comme **GoPhish** ou **SET**  
+        - Simulation de campagnes réalistes  
+        - Ciblage de groupes spécifiques  
         - Collecte de métriques comportementales  
 
         ### Indicateurs clés
@@ -200,149 +238,36 @@ page_data:
         - Taux de saisie d’identifiants  
         - Taux de signalement  
 
-        Ces données permettent d’identifier les axes d’amélioration.
-
-        ---
-
-        ## 🧠 La psychologie au cœur des attaques
-
-        Les campagnes de phishing exploitent plusieurs leviers :
-
-        - **Urgence** : pousser à agir rapidement  
-        - **Autorité** : imiter une source légitime  
-        - **Peur** : déclencher une réaction immédiate  
-        - **Curiosité** : susciter l’intérêt  
-        - **Confiance** : reproduire des éléments familiers  
-
-        Ces mécanismes reposent sur des biais cognitifs comme la surconfiance ou le biais d’autorité.
+        Ces indicateurs permettent d’identifier les axes d’amélioration.
 
         ---
 
         ## 🔄 Cycle d’une campagne de phishing
 
-        1. Planification et cadrage  
-        2. Reconnaissance (OSINT)  
-        3. Conception des scénarios  
-        4. Exécution  
-        5. Reporting et recommandations  
+        ![Cycle du phishing](/assets/img/projects/phishing-cycle.png)
 
-        L’objectif n’est pas seulement de tester, mais de **faire progresser durablement la posture de sécurité**.
+        1. Planification  
+        2. Reconnaissance (OSINT)  
+        3. Conception  
+        4. Exécution  
+        5. Analyse  
+
+        Ce cycle permet de transformer une simulation en recommandations concrètes.
 
         ---
 
         ## 🏁 Conclusion
 
-        Ce travail met en évidence un point clé :
+        Ce travail met en évidence un point fondamental :
 
         > La cybersécurité est autant une question de technologie que de comportement humain.
 
         La simulation de phishing permet :
-        - d’identifier les faiblesses  
+        - d’identifier les faiblesses humaines  
         - de sensibiliser efficacement  
-        - d’améliorer en continu les pratiques  
+        - d’améliorer durablement la posture de sécurité  
 
         Une compétence essentielle dans toute démarche de pentest moderne.
-        
-
-    - type: id_cybersecurity
-      project_name: "Phishing & Social Engineering - Analyse et simulation"
-      project_excerpt: "Étude des techniques de phishing et évaluation du facteur humain en cybersécurité"
-      img: "/assets/img/projects/phishing.jpg"
-      img_title: "Phishing"
-      date: "2026-04-12"
-      post: |
-        # Phishing & Social Engineering : un enjeu humain avant tout
-
-        Dans le cadre de ma montée en compétences en cybersécurité, j’ai étudié les mécanismes du **phishing** en adoptant une approche orientée **pentest**.
-
-        👉 Objectif : comprendre comment les attaquants exploitent le facteur humain pour contourner les dispositifs techniques.
-
-        ---
-
-        ## 🎯 Enjeux
-
-        Le phishing est aujourd’hui l’un des vecteurs d’attaque les plus efficaces.  
-        Il repose sur l’usurpation d’identité (email, site web, SMS) pour :
-
-        - Obtenir des identifiants  
-        - Accéder à des systèmes sensibles  
-        - Déployer des malwares  
-        - Réaliser des fraudes  
-
-        ---
-
-        ## 🔍 Ce que j’ai analysé
-
-        ### Typologies d’attaques
-        - Phishing de masse (large diffusion)  
-        - Spear phishing (attaques ciblées)  
-        - Whaling (ciblage des décideurs)  
-
-        ### Techniques utilisées
-        - Email spoofing (usurpation d’identité)  
-        - Faux sites de connexion (credential harvesting)  
-        - Manipulation d’URL (homographes, typosquatting)  
-
-        👉 Certaines attaques sont aujourd’hui **quasi indétectables à l’œil humain**.
-
-        ---
-
-        ## 🧠 Dimension humaine
-
-        Les attaques reposent principalement sur des leviers psychologiques :
-
-        - Urgence  
-        - Autorité  
-        - Peur  
-        - Confiance  
-
-        Ces techniques exploitent des biais cognitifs (surconfiance, biais d’autorité), réduisant la vigilance des utilisateurs.
-
-        ---
-        ## 🔄 Cycle d’une campagne de phishing
-
-        ![Cycle du phishing](/assets/img/projects/phishing-cycle.png)
-
-        1. **Planification** : définition des objectifs et des cibles  
-        2. **Reconnaissance (OSINT)** : collecte d’informations publiques  
-        3. **Conception** : création de scénarios crédibles  
-        4. **Exécution** : envoi des campagnes et suivi  
-        5. **Analyse** : mesure des résultats et recommandations  
-
-        Ce cycle permet d’évaluer concrètement la maturité sécurité d’une organisation et d’identifier des axes d’amélioration.
-
-        > 💡 Ce type de démarche est directement inspiré des méthodologies de pentest et permet de transformer une simulation en recommandations actionnables.
-
-        ## 🧪 Approche en pentest
-
-        Le phishing est utilisé pour évaluer la maturité sécurité d’une organisation via :
-
-        - Des campagnes simulées et encadrées  
-        - L’analyse des comportements utilisateurs  
-        - Des indicateurs clés (taux de clic, saisie, signalement)  
-
-        🎯 Objectif : identifier les faiblesses et proposer des actions concrètes.
-
-        ---
-
-        ## 🏁 Résultats & apprentissages
-
-        - Compréhension approfondie des mécanismes de social engineering  
-        - Capacité à concevoir des scénarios de phishing réalistes  
-        - Vision claire du rôle du facteur humain en cybersécurité  
-
-        ---
-
-        ## 💡 Conclusion
-
-        > La cybersécurité ne dépend pas uniquement des outils, mais aussi des comportements.
-
-        Le phishing est un excellent levier pour :
-        - sensibiliser efficacement  
-        - tester les organisations  
-        - améliorer durablement la posture de sécurité   
-           
-
         
         
     # # example
