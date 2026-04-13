@@ -50,7 +50,7 @@ page_data:
     - type: id_cybersecurity
       project_name: "Mise en place d’un SIEM applicatif à la HAS"
       project_excerpt: "Étude et déploiement d’une solution SIEM et de supervision applicative"
-      img: "<img src='/assets/img/projects/has.jpg  style=width:60%; max-width:400px;'>" 
+      img: "<img src='/assets/img/projects/logo-has.svg  style=width:60%; max-width:400px;'>" 
       img_title: "Logo Haute Autorité de Santé"
       date: "2024-09-05"
       post: |
@@ -89,11 +89,11 @@ page_data:
         peut répondre efficacement aux enjeux de sécurité et de performance des applications critiques.  
         Il constitue un réel tremplin pour renforcer la cybersécurité des organisations.  
         
-           
+    # phishing & social engineering       
     - type: id_cybersecurity
       project_name: "Phishing & Social Engineering - Analyse et simulation"
       project_excerpt: "Étude des techniques de phishing, manipulation des utilisateurs et simulation en pentest"
-      img: "/assets/img/projects/phishing.jpg"
+      img: "/assets/img/projects/phishing.svg"
       img_title: "Phishing"
       date: "2026-04-12"
       post: |
@@ -164,14 +164,14 @@ page_data:
         - **Masquage d’URL** : lien affiché différent de la destination réelle  
         - **Raccourcisseurs d’URL** : dissimulation de la cible finale  
 
-        #### Homographes vs Typosquatting
+        ##### Homographes vs Typosquatting
 
         - **Homographes** : utilisation de caractères visuellement identiques  
         - **Typosquatting** : exploitation des fautes de frappe  
 
         👉 Les attaques par homographes sont particulièrement dangereuses car elles ne nécessitent **aucune erreur utilisateur**.
         
-         #### 🛡️ Contre-mesures
+        ##### 🛡️ Contre-mesures
 
         - Activation de la détection des domaines IDN dans les navigateurs  
         - Utilisation de gestionnaires de mots de passe (validation automatique des domaines)  
@@ -198,7 +198,7 @@ page_data:
 
         👉 Résultat : l’utilisateur pense à une erreur de connexion, tandis que l’attaquant récupère les accès.
         
-        #### 🛡️ Contre-mesures
+        ##### 🛡️ Contre-mesures
 
         - Authentification multifacteur (MFA)  
         - Sensibilisation à la vérification des URL  
@@ -215,7 +215,7 @@ page_data:
         - Incitation à “Activer le contenu”  
         - Exécution de code en arrière-plan  
 
-        #### 🛡️ Contre-mesures
+        ##### 🛡️ Contre-mesures
 
         - Désactivation des macros par défaut  
         - Sandbox des pièces jointes  
@@ -247,13 +247,13 @@ page_data:
 
         Le phishing est un outil essentiel pour évaluer la sécurité d’une organisation via des simulations contrôlées.
 
-        ### Approche
+        ##### Approche
 
         - Simulation de campagnes réalistes  
         - Ciblage de groupes spécifiques  
         - Collecte de métriques comportementales  
 
-        ### Indicateurs clés
+        ##### Indicateurs clés
 
         - Taux d’ouverture  
         - Taux de clic  
